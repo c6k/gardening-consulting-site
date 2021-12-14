@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import ContactForm from "../components/ContactForm";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -57,12 +58,7 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
                     </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
+                    <ContactForm/>
                   </div>
                 </div>
               </div>
